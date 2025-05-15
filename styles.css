@@ -12,19 +12,6 @@ body {
     border-radius: 10px;
 }
 
-.priority-low {
-    color: green;
-}
-
-.priority-medium {
-    color: orange;
-}
-
-.priority-high {
-    color: red;
-    font-weight: bold;
-}
-
 .task-item {
     margin-bottom: 20px;
 }
