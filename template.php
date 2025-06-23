@@ -77,5 +77,9 @@
         <?php endif; ?>
     </ul>
 </div>
+<script>
+    const tasksFromJson = <?= json_encode($tasks, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE); ?>;
+    console.log("Aktuelle Aufgaben aus tasks.json:", tasksFromJson);
+</script>
 </body>
 </html>
